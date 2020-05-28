@@ -9,7 +9,10 @@ class userMainCode
   if(n>9){
     sl=n%100;
     secondlast=sl/10;
-  }
-  return(secondlast);
+    return(secondlast);
  }
+    else{
+      return -1;
+    }
+  }
  }
